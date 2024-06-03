@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root{
+
+    --cor-da-letra: white;
+    --cor-de-fundo: #5603c4;
+    --fundo-senha: #530ff1;
+    --fundo-texto: #9909ec;
+    --borda: #0075FF;
+    --fonte:"Permanent Marker", cursive;
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+
+
+
+}
+
+.conteudo{
+ 
+    text-align: center;
+    font-size: 35px;
+}
+
+.titulo-principal{
+     
+      font-size: 30px;
+      font-family:var(--fonte2);
+      color: black
+
+}
+
+.titulo-secundario{
+
+     font-size: 17px;
+
+
+}
