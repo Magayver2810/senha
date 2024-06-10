@@ -3,8 +3,8 @@
 :root{
 
     --cor-da-letra: white;
-    --cor-de-fundo: #5603c4;
-    --fundo-senha: #530ff1;
+    --cor-de-fundo: #72007c;
+    --fundo-senha: #8400ff;
     --fundo-texto: #9909ec;
     --borda: #0075FF;
     --fonte:"Permanent Marker", cursive;
@@ -37,5 +37,37 @@ body{
 
      font-size: 17px;
 
+
+}
+
+.imagem{
+    width: 10%;
+}
+
+.conteudo-titulo{
+ margin-top: 80px;
+
+
+
+
+}
+
+
+.conteudo-senha{
+ 
+  margin-top: 20px;
+  background: var(--fundo-senha);
+  padding: 5px;
+  border-bottom: 20px solid var(--borda);
+  border-radius: 20px;
+
+}
+
+#campo-senha{
+
+  background-color:  var(--fundo-texto);
+  border:none;
+  color: var (--letra);
+  width : 70%;
 
 }
