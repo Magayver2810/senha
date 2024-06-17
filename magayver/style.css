@@ -4,9 +4,9 @@
 
     --cor-da-letra: white;
     --cor-de-fundo: #72007c;
-    --fundo-senha: #8400ff;
-    --fundo-texto: #9909ec;
-    --borda: #0075FF;
+    --fundo-senha: #000000;
+    --fundo-texto: #ffffff;
+    --borda: #0b2d55;
     --fonte:"Permanent Marker", cursive;
 }
 
@@ -58,7 +58,7 @@ body{
   margin-top: 20px;
   background: var(--fundo-senha);
   padding: 5px;
-  border-bottom: 20px solid var(--borda);
+  border-bottom: 15px solid var(--borda);
   border-radius: 20px;
 
 }
@@ -68,6 +68,12 @@ body{
   background-color:  var(--fundo-texto);
   border:none;
   color: var (--letra);
+  font-size: 20px;
   width : 70%;
 
+}
+
+#campo-senha:focus{
+ 
+  outline:none:
 }
