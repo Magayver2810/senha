@@ -75,5 +75,27 @@ body{
 
 #campo-senha:focus{
  
-  outline:none:
+  outline:none;
+}
+
+
+.conteudo{
+    width:98%;
+    margin:0 auto;
+    
+}
+
+.parametro{
+     background-color: var(--fundo-senha);
+     border: 2px solid var(--borda);
+     margin-top: 20px;
+     padding: 20px;
+     
+}
+
+.parametro-titulo{
+    
+
+
+
 }
