@@ -106,3 +106,26 @@ body{
     justify-content: center; 
 
 }
+.parametro-senha-botoes{
+justify-content: center;
+display: flex;
+
+}
+
+.parametro-senha-texto{
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin:0;
+    padding:12px;
+    
+}
+
+.parametro-senha-botao{
+    cursor: pointer;
+    background-color: #0b2d55;
+    --cor-da-letra:white;
+    border-bottom: 2px solid var(--borda);
+    padding: 12px;
+    font-size: 5px;
+
+}
