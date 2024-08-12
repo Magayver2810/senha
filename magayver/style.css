@@ -95,9 +95,19 @@ body{
 }
 
 .parametro-senha{
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   font-size: 20px;
+  background-color: rgb(116, 125, 255);;
+  margin: 30px;
+  border-radius: 10px;
+
+
+}
+
+.parametro-senha-titulo{
+  width: 50%;
+
 }
 
 .parametro-coluna-senha{
@@ -126,6 +136,25 @@ display: flex;
     --cor-da-letra:white;
     border-bottom: 2px solid var(--borda);
     padding: 12px;
-    font-size: 5px;
+    font-size: 25px;
+    
 
+}
+.parametro-senha-checkbox{
+  display: flex;
+  justify-content: left;
+  
+
+
+}
+label{
+font-size: 20px;
+
+
+}
+.checkbox{
+   cursor: pointer;
+   width: 20px;
+   height: 20px;
+   
 }
