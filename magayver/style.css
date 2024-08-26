@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap&#39');
 
 :root{
 
-    --cor-da-letra: white;
-    --cor-de-fundo: #72007c;
-    --fundo-senha: #2340c0;
-    --fundo-texto: #ffffff;
-    --borda: #0b2d55;
-    --fonte:"Permanent Marker", cursive;
+--cor-da-letra: white;
+--cor-de-fundo: #00367c;
+--fundo-senha: #2340c0;
+--fundo-texto: #ffffff;
+--borda: #0b2d55;
+--fonte:"Permanent Marker", cursive;
 }
 
 body{
-    color: var(--cor-da-letra);
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte);
+color: var(--cor-da-letra);
+background-color: rgb(116, 125, 255);
+font-family: var(--fonte);
 
 
 
 }
 
 .conteudo{
- 
-    text-align: center;
-    font-size: 35px;
+
+text-align: center;
+font-size: 35px;
 }
 
 .titulo-principal{
-     
-      font-size: 30px;
-      font-family:var(--fonte2);
-      color: black
+
+font-size: 30px;
+font-family:var(--fonte2);
+color: black
 
 }
 
 .titulo-secundario{
 
-     font-size: 17px;
+font-size: 17px;
 
 
 }
 
 .imagem{
-    width: 10%;
+width: 10%;
 }
 
 .conteudo-titulo{
- margin-top: 80px;
+margin-top: 80px;
 
 
 
@@ -54,66 +54,66 @@ body{
 
 
 .conteudo-senha{
- 
-  margin-top: 20px;
-  background: var(--fundo-senha);
-  padding: 5px;
-  border-bottom: 15px solid var(--borda);
-  border-radius: 20px;
+
+margin-top: 20px;
+background: var(--fundo-senha);
+padding: 5px;
+border-bottom: 15px solid var(--borda);
+border-radius: 20px;
 
 }
 
 #campo-senha{
 
-  background-color:  var(--fundo-texto);
-  border:none;
-  color: var (--letra);
-  font-size: 15px;
-  width : 70%;
+background-color: var(--fundo-texto);
+border:none;
+color: var (--letra);
+font-size: 15px;
+width : 70%;
 
 }
 
 #campo-senha:focus{
- 
-  outline:none;
+
+outline:none;
 }
 
 
 .conteudo{
-    width:98%;
-    margin:0 auto;
-    
+width:98%;
+margin:0 auto;
+
 }
 
 .parametro{
-     background-color: var(--fundo-senha);
-     border: 2px solid var(--borda);
-     margin-top: 20px;
-     padding: 20px;
-     font-size: 20px;
-     
+background-color: var(--fundo-senha);
+border: 2px solid var(--borda);
+margin-top: 20px;
+padding: 20px;
+font-size: 20px;
+
 }
 
 .parametro-senha{
-  width: 60%;
-  margin: 0 auto;
-  font-size: 20px;
-  background-color: rgb(116, 125, 255);;
-  margin: 30px;
-  border-radius: 10px;
+width: 60%;
+margin: 0 auto;
+font-size: 20px;
+background-color: rgb(116, 125, 255);
+margin: 30px;
+border-radius: 10px;
 
 
 }
 
 .parametro-senha-titulo{
-  width: 50%;
+width: 50%;
 
 }
 
 .parametro-coluna-senha{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
+display: flex;
+flex-direction: row;
+justify-content: center;
 
 }
 .parametro-senha-botoes{
@@ -123,27 +123,27 @@ display: flex;
 }
 
 .parametro-senha-texto{
-    border-top: 2px solid var(--borda);
-    border-bottom: 2px solid var(--borda);
-    margin:0;
-    padding:12px;
-    
+border-top: 2px solid var(--borda);
+border-bottom: 2px solid var(--borda);
+margin:0;
+padding:12px;
+
 }
 
 .parametro-senha-botao{
-    cursor: pointer;
-    background-color: #0b2d55;
-    --cor-da-letra:white;
-    border-bottom: 2px solid var(--borda);
-    padding: 12px;
-    font-size: 25px;
-    
+cursor: pointer;
+background-color: #0b2d55;
+color:white;
+border-bottom: 2px solid var(--borda);
+padding: 12px;
+font-size: 25px;
+
 
 }
 .parametro-senha-checkbox{
-  display: flex;
-  justify-content: left;
-  
+display: flex;
+justify-content: left;
+
 
 
 }
@@ -153,8 +153,43 @@ font-size: 20px;
 
 }
 .checkbox{
-   cursor: pointer;
-   width: 20px;
-   height: 20px;
-   
+cursor: pointer;
+width: 20px;
+height: 20px;
+
+}
+.barra{
+background-color: #3c08fa;
+height: 20px;
+width: 95%;
+
+}
+
+.fraco{
+height: 20px;
+width: 20%;
+background-color: red;
+position:relative;
+bottom: 20px;
+}
+.parametro-senha-textos{
+ display:flex;
+ justify-content: space-between;
+
+
+
+}
+.media{
+  height: 20px;
+  width: 60%;
+  background-color: darkgoldenrod;
+  position: relative;
+  bottom: 20px;
+}
+.forte{
+  height: 20px;
+  width: 100%;
+  background-color: rgb(0, 255, 13);
+  position: relative;
+  bottom: 20px;
 }
